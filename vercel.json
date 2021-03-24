@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "quasar.conf.js",
+      "use": "@quasar/vercel-builder",
+      "config": {}
+    }
+  ]
+}
