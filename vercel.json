@@ -1,9 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "quasar.conf.js",
-      "use": "@quasar/vercel-builder",
-      "config": {}
-    }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
